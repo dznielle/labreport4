@@ -1,10 +1,11 @@
 # Lab Report 4
 
 ## Step 1
-
+![login](image1.png)
 Keys Pressed:
 
 ## Step 2
+![cloning](image2.png)
 Keys Pressed:
 
 ## Step 3
