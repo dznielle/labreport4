@@ -36,16 +36,14 @@ Keys Pressed:  `<ctrl>` `<v>` `<enter>` then in vim, `<G>` `<k>` `<k>` `<k>` `<k
 I had the command `vim ListExamples.Java` copied to my clipboard and did the paste shortcut. Then, once I was editing through vim, I pressed `<G>` to go to the bottom of the file. Then, I did `<k>` 6 times to get to the 44th line. Then `<^>` goes to the first word in the line. After that, I did `<l>` to get to the `1` in `index1`. I did `<a>` to append to the line, then used `<backspace>` to delete the `1` in `index1`. Then, I pressed `<2>` to replace the number I deleted. Then I pressed `<esc>` to go to normal mode and saved my changes and exited through `<esc>` `<:>` `<w>` `<q>` `<enter>`.
 
 ## Step 5 Test Successes
-Keys Pressed:
+![success1](image6.png)
+
+![success2](image6pt2.png)
+
+Keys Pressed: `<up>` `<up>` `<up>`  `<enter>` then, `<up>` `<up>` `<up>`  `<enter>`
+
+The `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` command was 3 up in my search history, so I used the up arrow key to access it. Then, the `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` command was then also 3 up, so I accessed it in the same process.
+
 
 ## Step 6 Commit and Push
 
-```
-  @Test
-  public void testReversed1() {
-    int[] input1 = {1, 2, 3, 4, 5};
-    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input1));
-  }
-```
-
-G, k, k, k, k, k, k, shift 6 to get to ^, l, l, l, l, l, a, backspace, type 2, esc, :wq
