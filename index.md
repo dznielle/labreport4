@@ -23,7 +23,12 @@ Keys Pressed: `<up>` `<up>` `<up>` `<up>` `<up>` `<up>` `<enter>` then, `<up>` `
 The `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` command was 5 up in my search history, so I used the up arrow key to access it. Then, the `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` command was then 5 up, so I accessed it in the same process.
 
 ## Step 4 Editing Code
+Command Line
+
 ![vim1](image5pt1.png)
+
+Edited code in vim
+
 ![vim2](image5.png)
 
 Keys Pressed:  `<ctrl>` `<v>` `<enter>` then in vim, `<G>` `<k>` `<k>` `<k>` `<k>` `<k>` `<k>` `<^>` `<l>` `<l>` `<l>` `<l>` `<l>` `<a>` `<backspace>` `<2>` `<esc>` `<:>` `<w>` `<q>` `<enter>`
